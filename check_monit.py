@@ -84,6 +84,7 @@ svc_perfdata = None
 types_perfdata = []
 program_output = None
 opts = None
+maintenance = False
 
 def ok(message):
     print("OK: %s%s%s"%(message,output_string,perfdata_string))
